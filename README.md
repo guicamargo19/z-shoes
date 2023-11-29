@@ -1,7 +1,3 @@
-## Cadastro para Agência de Viagens
+## Site CAMARGO Shoes
 
-Formulário simples de interesse em viajar para uma agência de viagens,
-realizado integração com plugins JQueryMaskPlugins, Slick e JQueryValidation.
-
-Implementado máscara nos campos do formulário com base nas características destes
-em território brasileiro, como CEP, CPF e telefone.
+Site de loja de sapatos com aplicação de responsividade para dispositivos móveis.

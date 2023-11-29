@@ -5,230 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@800&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>TOMODA Viagens</title>
+    <title>CAMARGO Shoes</title>
 </head>
 <body>
 
     <header>
-        <div class="container container-flex">
+        <div class="container">
             <h1>
-                <a href="./index.html">TOMODA Viagens</a>
+                <a href="./index.html">CAMARGO Shoes</a>
             </h1>
-            <div class="menu">
-                <span></span>
-                <span></span>
-                <span></span>
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#about">Sobre a loja</a>
+                        </li>
+                        <li>
+                            <a href="#produtos">Produtos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="./images/loja1.jpg" alt="Loja de sapatos"/>
+            <div>
+                <h2>Sobre a CAMARGO Shoes</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellendus
+                    consequatur adipisci quis dignissimos, provident dicta est hic doloribus pariatur
+                    ratione accusantium veritatis libero fuga aut iusto cumque quaerat atque.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellendus
+                    consequatur adipisci quis dignissimos, provident dicta est hic doloribus pariatur
+                    ratione accusantium veritatis libero fuga aut iusto cumque quaerat atque.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellendus
+                    consequatur adipisci quis dignissimos, provident dicta est hic doloribus pariatur
+                    ratione accusantium veritatis libero fuga aut iusto cumque quaerat atque.
+                </p>
             </div>
         </div>
-        <nav>
-            <div class="container">
-                <ul>
+    </section>
+
+    <section id="produtos">
+        <h2>Em destaque</h2>
+        <div class="container">
+            <div class="container-grid">
+                <ul class="lista-produtos">
                     <li>
-                        <a href="#about">Sobre</a>
+                        <img src="./images/tenis1.jpeg" alt="Tênis Adidas"/>
+                        <h3>Tênis Adidas</h3>
+                        <p>
+                            Tênis Adidas, branco, disponíveis nos tamanhos 38, 39, 40, 41 e 42
+                        </p>
+                        <strong>R$ 399,90</strong>
+                        <button type="button">Saber mais</button>
+                    </li>
+                    <li class="item-central">
+                        <img src="./images/tenis2.jpeg" alt="Tênis Under Armour"/>
+                        <h3>Tênis Under Armour</h3>
+                        <p>
+                            Tênis Under Armour, cinza, disponíveis nos tamanhos 38, 39, 40, 41 e 42
+                        </p>
+                        <strong>R$ 599,90</strong>
+                        <button type="button">Saber mais</button>
                     </li>
                     <li>
-                        <a href="#destaque">Em destaque</a>
+                        <img src="./images/tenis3.jpeg" alt="Tênis Lacoste"/>
+                        <h3>Tênis Lacoste</h3>
+                        <p>
+                            Tênis Lacoste, branco, disponíveis nos tamanhos 38, 39, 40, 41 e 42
+                        </p>
+                        <strong>R$ 799,90</strong>
+                        <button type="button">Saber mais</button>
                     </li>
                     <li>
-                        <a href="#promocoes">Promoções</a>
-                    </li>
-                    <li>
-                        <a href="#contato">Contato</a>
+                        <img src="./images/tenis4.jpeg" alt="Tênis Olympicus"/>
+                        <h3>Tênis Olympicus</h3>
+                        <p>
+                            Tênis Olympicus, verde, disponíveis nos tamanhos 38, 39, 40, 41 e 42
+                        </p>
+                        <strong>R$ 599,90</strong>
+                        <button type="button">Saber mais</button>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </header>
-
-    <!-- Seção Sobre -->
-    <section id="about">
-        <div class="container container-flex">
-            <img src="./images/agencia.jpg" alt="Agência de viagens"/>
-            <div>
-                <h2>Sobre a TOMODA Viagens</h2>
-                <p>
-                    Uma agência de viagens séria com mais de 15 anos no mercado,
-                    levando você para sua próxima experiência e encurtando caminhos
-                    para realização dos seus sonhos.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellendus
-                    consequatur adipisci quis dignissimos, provident dicta est hic doloribus pariatur
-                    ratione accusantium veritatis libero fuga aut iusto cumque quaerat atque.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellendus
-                    consequatur adipisci quis dignissimos, provident dicta est hic doloribus pariatur
-                    ratione accusantium veritatis libero fuga aut iusto cumque quaerat atque.
-                </p>
-            </div>
         </div>
     </section>
-
-    <!-- Seção Em destaque -->
-    <section id="destaque">
-        <div class="container">
-            <h2>Em destaque</h2>
-            <ul class="container-flex lista-locais">
-                <li>
-                    <div id="carrossel-imagens">
-                        <img src="./images/paris.jpg" alt="Torre Eifel - Paris"/>
-                        <img src="./images/paris2.jpeg" alt="Ponte de Paris"/>
-                        <img src="./images/paris3.jpeg" alt="Arco do Triunfo"/>
-                    </div>
-                    <h3>Paris</h3>
-                    <p>
-                        4 dias, Café da manhã incluso, translado.
-                    </p>
-                    <strong>R$ 14.990,00</strong>
-                    <button type="button">Saber mais</button>
-                </li>
-                <li class="item-central">
-                    <div id="carrossel-imagens2">
-                        <img src="./images/singapura.jpg" alt="Aeroporto de Singapura"/>
-                        <img src="./images/singapura2.jpeg" alt="Singapura"/>
-                        <img src="./images/singapura3.jpeg" alt="Singapura Hotel"/>
-                    </div>
-                    <h3>Singapura</h3>
-                    <p>
-                        6 dias, café da manhã incluso, translado.
-                    </p>
-                    <strong>R$ 17.890,00</strong>
-                    <button type="button">Saber mais</button>
-                </li>
-                <li>
-                    <div id="carrossel-imagens3">
-                        <img src="./images/san-diego.jpg" alt="San Diego"/>
-                        <img src="./images/san-diego2.jpg" alt="Praia de San Diego"/>
-                        <img src="./images/san-diego3.jpg" alt="Docas de San Diego"/>
-                    </div>
-                    <h3>San Diego</h3>
-                    <p>
-                        7 dias, café da manhã incluso, translado.
-                    </p>
-                    <strong>R$ 10.199,00</strong>
-                    <button type="button">Saber mais</button>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Seção Promoções -->
-    <section id="promocoes">
-        <div class="container">
-            <h2>Promoções</h2>
-            <ul class="container-flex lista-locais">
-                <li>
-                    <div id="carrossel-imagens4">
-                        <img src="./images/cruzeiro.jpg" alt="Cruzeiro em alto mar"/>
-                        <img src="./images/cruzeiro2.jpg" alt="Cruzeiro em alto mar"/>
-                        <img src="./images/cruzeiro3.jpg" alt="Cruzeiro em alto mar"/>
-                    </div>
-                    <h3>Cruzeiro América do Sul</h3>
-                    <p>
-                        4 dias - Santos -> Punta del Leste -> Montevidéu -> Buenos Aires -> Santos
-                    </p>
-                    <div class="price">
-                        <del>R$ 6.999,90</del>
-                        <strong>R$ 4.999,90</strong>
-                    </div>
-                    <button type="button">Saiba mais</button>
-                </li>
-                <li class="item-central">
-                    <div id="carrossel-imagens5">
-                        <img src="./images/maldivas.jpg" alt="Maldivas"/>
-                        <img src="./images/maldivas2.jpeg" alt="Chalés no mar nas Maldivas"/>
-                        <img src="./images/maldivas3.jpg" alt="Vista do mar nas Maldivas"/>
-                    </div>
-                    <h3>Maldivas</h3>
-                    <p>
-                        4 dias, preços para duas pessoas, tudo incluso.
-                    </p>
-                    <div class="price">
-                        <del>R$ 15.499,00</del>
-                        <strong>R$ 12.299,00</strong>
-                    </div>
-                    <button type="button">Saiba mais</button>
-                </li>
-                <li>
-                    <div id="carrossel-imagens6">
-                        <img src="./images/nova-york.jpeg" alt="Nova york"/>
-                        <img src="./images/nova york2.jpg" alt="Central Park em Nova York"/>
-                        <img src="./images/nova york3.jpg" alt="Empire State Building em Nova York"/>
-                    </div>
-                    <h3>Nova York</h3>
-                    <p>
-                        5 dias, preço para duas pessoas, tudo incluso.
-                    </p>
-                    <div class="price">
-                        <del>R$ 11.000, 00</del>
-                        <strong>R$ 8.999,90</strong>
-                    </div>
-                    <button type="button">Saiba mais</button>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Seção Entre em contato - Formulário -->
-    <section id="contato">
-        
-        <div class="container">
-            <h2>Entre em contato</h2>
-            <div class="container-final">
-                <form>
-                    <div class="form-campo">
-                        <label for="nome">Nome:</label>
-                        <input type="text" name="nome" id="nome"/>
-                    </div>
-                    <div class="form-campo">
-                        <label for="telefone">Celular:</label>
-                        <input type="tel" name="telefone" id="telefone"/>
-                    </div>
-                    <div class="form-campo">
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" id="email"/>
-                    </div>
-                    <div class="form-campo">
-                        <label for="text">CEP:</label>
-                        <input type="text" name="cep" id="cep"/>
-                    </div>
-                    <div class="form-campo">
-                        <label for="cpf">CPF:</label>
-                        <input type="text" name="cpf" id="cpf"/>
-                    </div>
-                    <div class="form-campo">
-                        <label for="viagemInteresse">Destino de interesse:</label>
-                        <input type="text" name="viagemInteresse" id="viagemInteresse"/>
-                    </div>
-                    <div class="form-campo">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea  name="mensagem" id="mensagem"></textarea>
-                    </div>
-                    <button type="submit">Enviar</button>
-                    <div class="container mensagem-enviada">
-                        <p>Obrigado por entrar em contato!</p>
-                        <p>Um de nossos representantes vai rapidamente entrar em contato você.</p>
-                    </div>
-                </form>
-                <div class="slogan">
-                    <h3>TOMODA Viagens</h3>
-                    <p>levando você para sua próxima experiência</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
     <footer>
-        <div class="container container-flex">
+        <div class="container">
             <p>
-                2023 &copy; TOMODA Viagens - Todos os direitos reservados
+                2023 &copy; CAMARGO Shoes - Todos os direitos reservados
             </p>
-            <ul class="container-flex">
+            <ul class="container">
                 <li>
                     <a href="https://github.com/guicamargo19">
                         <img src="./icones/github-logo.png" alt="GitHub">
@@ -242,13 +120,6 @@
             </ul>
         </div>
     </footer>
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/jquery.mask.min.js"></script>
-    <script src="./js/jquery.validate.min.js"></script>
-    <script src="./js/messages_pt_BR.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
