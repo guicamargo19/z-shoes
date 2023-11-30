@@ -35,7 +35,7 @@ header h1 {
 header,
 footer {
     background-color: #456ac8;
-    padding-top: 12px;
+    padding-top: 16px;
     color: #fff;
 }
 
@@ -189,7 +189,9 @@ footer li img{
     }
 
     nav li {
-        font-size: 16px;
+        font-size: 12px;
+        display: block;
+        margin: 0;
     }
 
     section {
@@ -197,12 +199,16 @@ footer li img{
     }
 
     #container-header>h1 {
-        font-size: 1.8em ;
+        font-size: 1.5em ;
         padding-bottom: 6px;
     }
 
     #about {
-        margin-top: 16px ;
+        margin-top: 16px;
+    }
+
+    section h2 {
+        font-size: 1.3em;
     }
 
     #about img {
@@ -216,7 +222,6 @@ footer li img{
         display: grid;
         width: 100%;
         max-width: 85%;
-
     }
         
     .container-destaque li {
@@ -257,7 +262,7 @@ footer li img{
         display: flex;
         align-items: center;
         padding: 0;
-        padding-bottom: 6px;
+        padding-bottom: 8px;
     }
 
     #container-menu {
