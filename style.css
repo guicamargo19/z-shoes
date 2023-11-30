@@ -179,19 +179,24 @@ footer li img{
     }
 
     #container-header h1 {
-        text-align: center;
-        margin-right: 16px;
+        text-align: left;
+        margin-right: 12px;
     }
 
     #container-menu {
         display: block;
-        text-align: right;
+        text-align: left;
+    }
+
+    nav {
+        padding: 0;
     }
 
     nav li {
-        font-size: 12px;
+        font-size: 14px;
         display: block;
         margin: 0;
+        padding-bottom: 6px;
     }
 
     section {
@@ -267,7 +272,7 @@ footer li img{
 
     #container-menu {
         display: inline;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     header {
@@ -286,6 +291,7 @@ footer li img{
     #about img {
         max-width: 100%;
         padding: 0;
+        margin: 0;
         margin-bottom: 16px;
     }
 
