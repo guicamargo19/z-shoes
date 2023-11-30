@@ -84,18 +84,20 @@ nav li a:hover {
     max-width: 100%;
 }
 
-#about {
-    margin-top: 32px;
-    margin-bottom: 32px;
+.container-about {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    column-gap: 2%;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-#about img {
-    max-width: 40%;
-    margin-right: 24px;
-}
-
-#about p {
+.container-about p {
     padding-bottom: 8px;
+}
+
+.container-about img {
+    width: 100%;
 }
 
 section {
@@ -208,19 +210,18 @@ footer li img{
         padding-bottom: 6px;
     }
 
-    #about {
-        margin-top: 16px;
+    .container-about {
+        grid-template-columns: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .container-about img {
+        margin-bottom: 16px;
     }
 
     section h2 {
         font-size: 1.3em;
-    }
-
-    #about img {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 16px;
     }
 
     .container-destaque {
@@ -288,10 +289,13 @@ footer li img{
         padding-bottom: 6px;
     }
 
-    #about img {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
+    .container-about {
+        grid-template-columns: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .container-about img {
         margin-bottom: 16px;
     }
 
