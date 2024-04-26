@@ -1,13 +1,13 @@
-# Site Kakashi Shoes
+# Site Z-Shoes
 
 ## Apresentação do projeto
 
-
-
-Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+https://github.com/guicamargo19/z-shoes/assets/133445061/9da22501-8791-4d22-8992-0902cd319751
 
 Site de loja de sapatos com aplicação do conceito Mobile First. Que é o foco no desenvolvimento de projetos
 direcionados aos dispositivos móveis. Responsividade aplicada para diferentes tipos de resolução de tela.
+
+Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
 ## Instalação
 
