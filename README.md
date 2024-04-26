@@ -1,6 +1,8 @@
 # Site Kakashi Shoes
 
-<img src="./assets/images/kakashi.png">
+## Apresentação do projeto
+
+
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
